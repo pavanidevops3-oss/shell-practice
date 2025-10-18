@@ -1,6 +1,8 @@
 #!/bin/bash
 
-num=$1
+echo ""Please enter the number"
+
+read num
 
 res=$((num % 2))
 
